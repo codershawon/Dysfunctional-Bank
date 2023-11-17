@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bap ER Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-6">Welcome to our <span class="font-semibold text-orange-700">Bap Er Bank</span></h1>
+    </header>
+    <main>
+        <section class="bg-sky-100 mx-auto w-9/12 mt-10 p-10 rounded-sm">
+            <h3 class="text-3xl mb-5 font-medium">Please Login</h3>
+            <div>
+                <input id="inputEmail" class="w-9/12 px-3 block mb-3" type="email" name="" placeholder="Your Email Address">
+                <input id="inputPassword" class="w-9/12 px-3" type="password" name="" id="" placeholder="Your Password">
+                <button id="btnSubmit" class="block bg-blue-400 hover:bg-cyan-900 rounded-sm mt-3 px-3 py-2 font-mono text-white">Submit</button>
+            </div>
+        </section>
+    </main>
+  <script src="script.js"></script>
+  <script src="bank.js"></script>
+</body>
+</html>
